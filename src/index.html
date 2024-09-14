@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product list with cart</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="../src/js/script.js" defer></script>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="font-sans font-semibold bg-[#FCF8F5]">
+      <section class="md:flex md:justify-center sm:max-lg:flex-col gap-5">
+        <article class="pt-5 general">
+          <h1 class="text-3xl font-bold pb-5">Desserts</h1>
+          <!-- cards-pincipales 1 -->
+          <div class="md:flex md:justify-center md:items-center gap-4">
+            <!-- cards -->
+            <div class="w-full flex flex-col items-center">
+              <div>
+                <img
+                  src="../assets/images/image-waffle-desktop.jpg"
+                  class="w-50 md:w-48 rounded-md m-auto"
+                  alt="img"
+                />
+              </div>
+
+              <div>
+                <button
+                  class="flex gap-2 rounded-full border font-bold border-[#BBAAA7] m-auto bg-white px-4 py-2 btn-add"
+                >
+                  <img src="../assets/images/icon-add-to-cart.svg" alt="icon" />
+                  Add to Cart
+                </button>
+                <div class="w-48 pt-4">
+                  <span class="text-[#BBAAA7] text-xs pt-4">Waffle</span>
+                  <h4 class="leading-tight">Waffle with Berries</h4>
+                  <p class="text-[#BB4017]">$6.50</p>
+                </div>
+              </div>
+            </div>
+            <!-- cards -->
+            <div class="w-full flex flex-col items-center">
+              <div>
+                <img
+                  src="../assets/images/image-creme-brulee-desktop.jpg"
+                  class="w-50 md:w-48 rounded-md m-auto"
+                  alt="img"
+                />
+              </div>
+
+              <div>
+                <button
+                  class="flex gap-2 rounded-full border font-bold border-[#BBAAA7] m-auto bg-white px-4 py-2 btn-add"
+                >
+                  <img src="../assets/images/icon-add-to-cart.svg" alt="icon" />
+                  Add to Cart
+                </button>
+                <div class="w-48 pt-4">
+                  <span class="text-[#BBAAA7] text-xs pt-4">Crème Brûlée</span>
+                  <h4 class="leading-tight">Vanilla Bean Crème Brûlée</h4>
+                  <p class="text-[#BB4017]">$7.00</p>
+                </div>
+              </div>
+            </div>
+            <!-- cards -->
+            <div class="w-full flex flex-col items-center">
+              <div>
+                <img
+                  src="../assets/images/image-macaron-desktop.jpg"
+                  class="w-50 md:w-48 rounded-md m-auto"
+                  alt="img"
+                />
+              </div>
+
+              <div>
+                <button
+                  class="flex gap-2 rounded-full border border-[#BBAAA7] m-auto bg-white font-bold px-4 py-2 btn-add"
+                >
+                  <img src="../assets/images/icon-add-to-cart.svg" alt="icon" />
+                  Add to Cart
+                </button>
+                <div class="w-48 pt-4">
+                  <span class="text-[#BBAAA7] text-xs pt-4">Macaron</span>
+                  <h4 class="leading-tight">Macaron Mix of Five</h4>
+                  <p class="text-[#BB4017]">$8.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- cards-principales 2 -->
+          <div class="md:flex md:justify-center md:items-center gap-4 py-7">
+            <!-- cards -->
+            <div class="w-full flex flex-col items-center">
+              <img
+                src="../assets/images/image-tiramisu-desktop.jpg"
+                class="w-50 md:w-48 rounded-md m-auto"
+                alt="img"
+              />
+
+              <div>
+                <button
+                  class="flex gap-2 rounded-full border border-[#BBAAA7] bg-white px-4 py-2 btn-add"
+                >
+                  <img src="../assets/images/icon-add-to-cart.svg" alt="icon" />
+
+                  <p class="font-bold">Add to Cart</p>
+                </button>
+              </div>
+
+              <div class="w-48">
+                <p class="text-[#BBAAA7] text-xs pt-4">Tiramisu</p>
+                <h4 class="leading-tight">Classic Tiramisu</h4>
+                <p class="text-[#BB4017]">$5.50</p>
+              </div>
+            </div>
+            <!-- cards -->
+            <div class="w-full flex flex-col items-center">
+              <img
+                src="../assets/images/image-baklava-desktop.jpg"
+                class="w-50 md:w-48 rounded-md m-auto"
+                alt="img"
+              />
+
+              <div>
+                <button
+                  class="flex gap-2 rounded-full border border-[#BBAAA7] bg-white px-4 py-2 btn-add"
+                >
+                  <img src="../assets/images/icon-add-to-cart.svg" alt="icon" />
+
+                  <p class="font-bold">Add to Cart</p>
+                </button>
+              </div>
+
+              <div class="w-48">
+                <p class="text-[#BBAAA7] text-xs pt-4">Baklava</p>
+                <h4 class="leading-tight">Pistachio Baklava</h4>
+                <p class="text-[#BB4017]">$4.00</p>
+              </div>
+            </div>
+            <!-- cards -->
+            <div class="w-full flex flex-col items-center">
+              <img
+                src="../assets/images/image-meringue-desktop.jpg"
+                class="w-50 md:w-48 rounded-md m-auto"
+                alt="img"
+              />
+
+              <div>
+                <button
+                  class="flex gap-2 rounded-full border border-[#BBAAA7] bg-white px-4 py-2 btn-add"
+                >
+                  <img src="../assets/images/icon-add-to-cart.svg" alt="icon" />
+
+                  <p class="font-bold">Add to Cart</p>
+                </button>
+              </div>
+
+              <div class="w-48">
+                <p class="text-[#BBAAA7] text-xs pt-4">Pie</p>
+                <h4 class="leading-tight">Lemon Meringue Pie</h4>
+                <p class="text-[#BB4017]">$5.00</p>
+              </div>
+            </div>
+          </div>
+          <!-- cards-principales 3 -->
+          <div class="md:flex md:justify-center md:items-center gap-4 pb-20">
+            <!-- cards -->
+            <div class="w-full flex flex-col items-center">
+              <img
+                src="../assets/images/image-cake-desktop.jpg"
+                class="w-50 md:w-48 rounded-md m-auto"
+                alt="img"
+              />
+
+              <div>
+                <button
+                  class="flex gap-2 rounded-full border border-[#BBAAA7] bg-white px-4 py-2 btn-add"
+                >
+                  <img src="../assets/images/icon-add-to-cart.svg" alt="icon" />
+
+                  <p class="font-bold">Add to Cart</p>
+                </button>
+              </div>
+
+              <div class="w-48">
+                <p class="text-[#BBAAA7] text-xs pt-4">Cake</p>
+                <h4 class="leading-tight">Red Velvet Cake</h4>
+                <p class="text-[#BB4017]">$4.50</p>
+              </div>
+            </div>
+            <!-- cards -->
+            <div class="w-full flex flex-col items-center">
+              <img
+                src="../assets/images/image-brownie-desktop.jpg"
+                class="w-50 md:w-48 rounded-md m-auto"
+                alt="img"
+              />
+
+              <div>
+                <button
+                  class="flex gap-2 rounded-full border border-[#BBAAA7] bg-white px-4 py-2 btn-add"
+                >
+                  <img src="../assets/images/icon-add-to-cart.svg" alt="icon" />
+
+                  <p class="font-bold">Add to Cart</p>
+                </button>
+              </div>
+
+              <div class="w-48">
+                <p class="text-[#BBAAA7] text-xs pt-4">Brownie</p>
+                <h4 class="leading-tight">Salted Caramel Brownie</h4>
+                <p class="text-[#BB4017]">$4.50</p>
+              </div>
+            </div>
+            <!-- cards -->
+            <div class="w-full flex flex-col items-center">
+              <img
+                src="../assets/images/image-panna-cotta-desktop.jpg"
+                class="w-50 md:w-48 rounded-md m-auto"
+                alt="img"
+              />
+
+              <div>
+                <button
+                  class="flex gap-2 rounded-full border border-[#BBAAA7] bg-white px-4 py-2 btn-add"
+                >
+                  <img src="../assets/images/icon-add-to-cart.svg" alt="icon" />
+
+                  <p class="font-bold">Add to Cart</p>
+                </button>
+              </div>
+
+              <div class="w-48">
+                <p class="text-[#BBAAA7] text-xs pt-4">Panna Cotta</p>
+                <h4 class="leading-tight">Vanilla Panna Cotta</h4>
+                <p class="text-[#BB4017]">$6.50</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="pt-5 pb-7">
+          <div class="rounded-lg bg-white p-4 w-80 m-auto carrito">
+            <h2 class="font-bold text-xl text-[#BB4017]">
+              You Cart <span id="counter">(0)</span>
+            </h2>
+
+            <div class="border-b-2 py-4 producto hidden-cart">
+              <div class="row-product">
+                <div class="cart-product">
+                  <div class="flex justify-between items-center">
+                    <div>
+                      <h5 class="text-sm">Classic Tiramisu</h5>
+                      <article class="flex gap-4 mt-2">
+                        <span class="text-[#BB4017]">1x</span>
+                        <p class="font-normal text-[#a47363]">@ $5.50</p>
+                        <p class="text-[#a47363]">$5.50</p>
+                      </article>
+                    </div>
+                    <div>
+                      <p></p>
+                      <img src="../assets/images/x-circle.svg" alt="x-circle" class="close" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex justify-between items-center pt-2">
+              <article>
+                <p class="font-normal">Order Total</p>
+              </article>
+
+              <article>
+                <p class="text-2xl font-bold" id="total">$46.50</p>
+              </article>
+            </div>
+
+            <div class="flex justify-center flex-col pt-6">
+              <button
+                class="bg-[#BB4017] rounded-3xl p-3 text-white font-normal"
+                id="vaciar"
+              >
+                Confirm Order
+              </button>
+            </div>
+
+            <div class="p-4 hidden">
+              <img
+                src="../assets/images/illustration-empty-cart.svg"
+                alt="empty"
+                class="m-auto"
+              />
+              <p class="text-center font-light text-[#BB4017] text-sm">
+                Your added items will appear here
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
